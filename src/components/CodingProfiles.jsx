@@ -23,8 +23,8 @@ const profiles = [
     username: "vivek-kumar-7",
     icon: <SiLeetcode />,
     description:
-      "Solved 320+ DSA problems to strengthen problem-solving skills.",
-    stats: "320+ Problems Solved",
+      "Solved 350+ DSA problems to strengthen problem-solving skills.",
+    stats: "350+ Problems Solved",
     link: "https://leetcode.com/u/vivek_kumar_7/",
   },
 
