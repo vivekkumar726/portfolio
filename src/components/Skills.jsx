@@ -4,20 +4,16 @@ import {
   FaPython,
   FaJs,
   FaReact,
-  FaNodeJs,
   FaGitAlt,
 } from "react-icons/fa";
 
 import {
   SiC,
   SiCplusplus,
-  SiExpress,
-  SiMongodb,
   SiMysql,
   SiScikitlearn,
   SiPandas,
   SiNumpy,
-  SiGooglemaps,
   SiGithub,
 } from "react-icons/si";
 
@@ -34,13 +30,30 @@ const skillCategories = [
   },
 
   {
-    title: "MERN Stack",
+    title: "Core CS Concepts",
     skills: [
+      { name: "Data Structures & Algorithms", icon: "📚" },
+      { name: "Object-Oriented Programming", icon: "☕" },
+      { name: "Operating Systems", icon: "💻" },
+      { name: "Database Management Systems", icon: "🗄️" },
+      { name: "Computer Networks", icon: "🌐" },
+      { name: "Software Engineering", icon: "⚙️" },
+    ],
+  },
+
+  {
+    title: "Full Stack & Cloud",
+    skills: [
+      { name: "Spring Boot", icon: "🍃" },
+      { name: "Hibernate", icon: "🔄" },
+      { name: "JDBC", icon: "🛢️" },
       { name: "React.js", icon: <FaReact /> },
-      { name: "Node.js", icon: <FaNodeJs /> },
-      { name: "Express.js", icon: <SiExpress /> },
-      { name: "MongoDB", icon: <SiMongodb /> },
+      { name: "HTML", icon: "🌐" },
+      { name: "CSS", icon: "🎨" },
+      { name: "JavaScript", icon: <FaJs /> },
+      { name: "REST APIs", icon: "🔗" },
       { name: "MySQL", icon: <SiMysql /> },
+      { name: "AWS Cloud", icon: "☁️" },
     ],
   },
 
@@ -50,6 +63,10 @@ const skillCategories = [
       { name: "Scikit-learn", icon: <SiScikitlearn /> },
       { name: "Pandas", icon: <SiPandas /> },
       { name: "NumPy", icon: <SiNumpy /> },
+      { name: "Matplotlib", icon: "📈" },
+      { name: "Supervised Learning", icon: "🤖" },
+      { name: "Data Preprocessing", icon: "🧹" },
+      { name: "Model Evaluation", icon: "📊" },
     ],
   },
 
@@ -58,34 +75,17 @@ const skillCategories = [
     skills: [
       { name: "Git", icon: <FaGitAlt /> },
       { name: "GitHub", icon: <SiGithub /> },
-      { name: "Google Maps API", icon: <SiGooglemaps /> },
-      { name: "REST APIs", icon: "🔗" },
-      { name: "JWT", icon: "🔐" },
-    ],
-  },
-
-  {
-    title: "Core CS Subjects",
-    skills: [
-      { name: "Data Structures" },
-      { name: "Algorithms" },
-      { name: "DBMS" },
-      { name: "Operating Systems" },
-      { name: "Computer Networks" },
-      { name: "Software Engineering" },
-      { name: "Artificial Intelligence" },
+      { name: "Maven", icon: "📦" },
+      { name: "Postman", icon: "📮" },
+      { name: "VS Code", icon: "💙" },
     ],
   },
 ];
 
 function Skills() {
   return (
-    <section
-      id="skills"
-      className="bg-slate-950 text-white py-24"
-    >
+    <section id="skills" className="bg-slate-950 text-white py-24">
       <div className="max-w-7xl mx-auto px-6">
-
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -101,8 +101,8 @@ function Skills() {
           <div className="w-24 h-1 bg-cyan-400 mx-auto mt-4 rounded-full"></div>
 
           <p className="text-slate-400 mt-6 max-w-2xl mx-auto">
-            Technologies and concepts I use to build scalable
-            applications and solve real-world problems.
+            Technologies and concepts I use to build scalable applications,
+            develop intelligent solutions, and solve real-world problems.
           </p>
         </motion.div>
 
@@ -127,19 +127,8 @@ function Skills() {
                 {category.skills.map((skill, index) => (
                   <motion.div
                     key={index}
-                    whileHover={{
-                      scale: 1.05,
-                    }}
-                    className="
-                      bg-slate-800
-                      rounded-2xl
-                      p-6
-                      text-center
-                      shadow-lg
-                      cursor-pointer
-                      transition
-                      duration-300
-                    "
+                    whileHover={{ scale: 1.05 }}
+                    className="bg-slate-800 rounded-2xl p-6 text-center shadow-lg cursor-pointer transition duration-300 hover:bg-slate-700"
                   >
                     <div className="text-4xl mb-4 flex justify-center text-cyan-400">
                       {skill.icon}
@@ -154,7 +143,6 @@ function Skills() {
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
   );

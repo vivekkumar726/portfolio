@@ -6,28 +6,29 @@ import {
 
 const projects = [
   {
-    title: "RideHail (Uber Clone)",
+    title: "Smart Healthcare System",
     image:
-      "https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1200",
+      "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200",
     description:
-      "A real-time ride-hailing application built using the MERN stack with WebSockets and Google Maps integration.",
+      "A full-stack healthcare management platform that enables online doctor appointment booking, smart queue management, digital health records, and automated healthcare reminders.",
 
     technologies: [
-      "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "WebSockets",
-      "Google Maps API",
-      "JWT",
+      "Java",
+    "Spring Boot",
+    "React.js",
+    "MySQL",
+    "REST APIs",
+    "Spring Security",
+    "JWT",
     ],
 
     features: [
-      "Real-time ride requests",
-      "Live location tracking",
-      "Dynamic fare estimation",
-      "JWT authentication",
-      "Driver & Rider roles",
+      "Online doctor appointment booking",
+    "Real-time slot availability",
+    "Smart queue with waiting time prediction",
+    "10-minute appointment reminders",
+    "Secure medical report storage",
+    "Doctor dashboard for patient management",
     ],
 
     github:

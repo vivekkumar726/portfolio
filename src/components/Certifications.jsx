@@ -5,50 +5,42 @@ import {
 } from "react-icons/fa";
 
 const certifications = [
+  
+  {
+    title: "Cloud Practitioner CLF-C02",
+    organization: "AWS",
+    year: "2026",
+    link: "https://drive.google.com/file/d/169LItqX798pMMjrtQGAUjplbuRBjgN-A/view?usp=drive_link",
+    description:
+    "Validated foundational knowledge of AWS Cloud, including core services, security, networking, pricing, and architectural best practices.",
+  },
+  
+  {
+    title: "Certified System Administrator (CSA)",
+    organization: "ServiceNow",
+    year: "2026",
+    link: "https://drive.google.com/file/d/1NpcnuSw0Ay-rSQTZSxQ0rGs-nG83_0xm/view?usp=drive_link",
+    description:
+    "Demonstrated proficiency in ServiceNow platform administration, user management, workflows, incident management, and system configuration.",
+  },
+  
+  {
+    title: "Java Full Stack Developer",
+    organization: "AICTE",
+    year: "2026",
+    link: "https://drive.google.com/file/d/1zprys1N5NRSHZnNLRiVHzQgaNzkcOp6e/view?usp=drive_link",
+    description:
+    "Completed an 8-week Java Full Stack internship covering Spring Boot, Hibernate, MySQL, REST APIs, Git, and enterprise web application development.",
+  },
   {
     title: "Joy of Computing Using Python",
     organization: "NPTEL",
     year: "2025",
     link: "https://drive.google.com/file/d/1KHENg9T_U39RGVATnlHMY8TNWYmTOjgW/view",
     description:
-      "Learned Python programming fundamentals and problem-solving techniques through hands-on exercises.",
+      "Learned Python programming, computational thinking, problem-solving techniques, and algorithmic concepts through practical programming exercises.",
   },
 
-  {
-    title: "Introduction to LLM",
-    organization: "NPTEL",
-    year: "2026",
-    link: "https://drive.google.com/file/d/1mBhwIIwBQi29zK_HQblxPlcwhkAxedBv/view",
-    description:
-      "Explored the fundamentals of Large Language Models, transformers, and modern AI applications.",
-  },
-
-  {
-    title: "Data Analytics with Python",
-    organization: "NPTEL",
-    year: "2026",
-    link: "https://drive.google.com/file/d/1bSVMMg08mQxnYzba7PyFgkrl7iWB_M32/view",
-    description:
-      "Gained practical experience in data analysis, visualization, and statistical techniques using Python.",
-  },
-
-  {
-    title: "Web Full Stack Developer",
-    organization: "AICTE",
-    year: "2025",
-    link: "https://drive.google.com/file/d/19rHSViYiM1KMhwXH8pTulUAW2d619mhe/view",
-    description:
-      "Completed virtual internship focused on full-stack development and real-world web applications.",
-  },
-
-  {
-    title: "Google AI-ML Virtual Internship",
-    organization: "AICTE",
-    year: "2026",
-    link: "https://drive.google.com/file/d/1orKqtXhvW-A2npnxWJEMdcEhKBF2aoT8/view",
-    description:
-      "Developed understanding of AI and Machine Learning concepts through industry-oriented projects.",
-  },
 ];
 
 function Certifications() {

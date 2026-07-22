@@ -11,9 +11,9 @@ import {
 const achievements = [
   {
     icon: <FaCode />,
-    title: "320+ DSA Problems",
+    title: "350+ DSA Problems",
     description:
-      "Solved more than 320 problems on LeetCode and other coding platforms, strengthening problem-solving and algorithmic thinking.",
+      "Solved more than 350 problems on LeetCode and other coding platforms, strengthening problem-solving and algorithmic thinking.",
   },
 
   {

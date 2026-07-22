@@ -34,7 +34,7 @@ function Footer() {
             </h2>
 
             <p className="text-slate-400 leading-relaxed">
-              MERN Stack Developer and Machine Learning Enthusiast
+              Java Full Stack Developer and Machine Learning Enthusiast
               passionate about building scalable applications and
               solving real-world problems through technology.
             </p>

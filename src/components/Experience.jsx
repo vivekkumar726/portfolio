@@ -3,22 +3,24 @@ import { FaBriefcase, FaCalendarAlt } from "react-icons/fa";
 
 const experiences = [
   {
-    title: "AICTE Virtual Internship – Full Stack Web Development",
+    title: "AICTE Virtual Internship – Java Full Stack Development",
     company: "AICTE",
-    duration: "2025",
+    duration: "2026",
     location: "Remote",
     description: [
-      "Gained practical full-stack development experience in a virtual collaborative environment.",
-      "Built web applications integrating frontend technologies with MySQL backend systems.",
-      "Developed an understanding of the software development lifecycle and REST API integration concepts.",
-      "Collaborated on projects while following industry-standard development practices.",
+      "Developed full-stack web applications using Java, Spring Boot, React.js, and MySQL.",
+      "Built RESTful APIs, integrated frontend and backend components, and implemented CRUD operations.",
+      "Gained hands-on experience with Spring Boot, database management, and responsive web application development.",
+      "Applied industry-standard development practices including version control, debugging, and API testing.",
     ],
     technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
+      "Java",
+      "Spring Boot",
+      "React.js",
       "MySQL",
       "REST APIs",
+      "Git",
+      "Postman",
     ],
   },
 ];

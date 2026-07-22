@@ -28,7 +28,7 @@ function Hero() {
             </h1>
 
             <h2 className="text-2xl md:text-3xl text-slate-300 mb-6">
-              MERN Stack Developer & Machine Learning Enthusiast
+              Java Full Stack Developer & Machine Learning Enthusiast
             </h2>
 
             <p className="text-slate-400 text-lg leading-relaxed mb-8">

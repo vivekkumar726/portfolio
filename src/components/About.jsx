@@ -6,7 +6,7 @@ const stats = [
     label: "CGPA",
   },
   {
-    value: "320+",
+    value: "350+",
     label: "LeetCode Problems",
   },
   {
@@ -14,7 +14,7 @@ const stats = [
     label: "Major Projects",
   },
   {
-    value: "5+",
+    value: "4+",
     label: "Certifications",
   },
 ];
@@ -64,7 +64,7 @@ function About() {
             </p>
 
             <p className="text-slate-300 leading-relaxed mb-6">
-              I enjoy building scalable applications using the MERN stack,
+              I enjoy building scalable applications using the Java Full stack,
               integrating APIs, and developing AI-powered solutions that solve
               real-world problems.
             </p>

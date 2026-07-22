@@ -14,7 +14,7 @@ const profiles = [
     icon: <FaGithub />,
     description:
       "Explore my repositories, projects, and contributions on GitHub.",
-    stats: "MERN • ML • Open Source",
+    stats: "Java Full Stack • ML • Open Source",
     link: "https://github.com/vivekkumar726",
   },
 
