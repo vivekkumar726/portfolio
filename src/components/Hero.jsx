@@ -50,7 +50,7 @@ function Hero() {
               </Link>
 
               <a
-                href="dist/resume.pdf"
+                href="/resume.pdf"
                 download
                 className="border border-cyan-500 hover:bg-cyan-500 px-6 py-3 rounded-lg font-semibold transition duration-300"
               >
